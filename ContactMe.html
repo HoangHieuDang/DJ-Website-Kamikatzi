@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1><strong>Lets get in touch!</strong></h1>
+<table cellspacing="50">
+  <tr>
+    <td>  <strong> <a href="">Facebook</a> </strong>  </td>
+    <td>  <strong> <a href="">Instagram</a> </strong> </td>
+    <td>  <strong> <a href="">Youtube</a> </strong>   </td>
+    <td>  <strong>Email: djkamikatzi@gmail.com </strong> </td>
+  </tr>
+</table>
+
+
+
+
+  <hr>
+  <!-- Form Element consists of 2 important parts:
+      - Label name or title of the submitted element
+      - Input where you declare the type of input
+      -->
+  <form class="" action="mailto:djkamikatzi@gmail.com" method="post" enctype="text/plain"> <!-- in the action attribute
+    you can add the URL of the place you want to save the submitted infos (in this case a business email address)
+  the enctype (encoding type) attribute decides which format the submitted information gonna be displayed and in this case it is plain text -->
+    <label for="Name"> Your Name: </label>
+    <input type="text" name="YourName" value=""> <br>
+
+    <label for="Email"> Your Email: </label>
+    <input type="email" name="YourEmail" value=""> <br> <!-- type Email has some default validation mechanism for email addresses -->
+
+    <label for="Message"> Your Message: </label>
+    <textarea name="YourMessage" rows="10" cols="40"></textarea> <br>
+    <!--to add message field -->
+    <input type="submit" name=""> <br>
+
+  </form>
+</body>
+
+</html>
